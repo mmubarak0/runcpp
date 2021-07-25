@@ -13,7 +13,8 @@ a simple program to run cpp program for linux
 \
 \
 \
+![2021-07-25_17-13](https://user-images.githubusercontent.com/66879926/126904507-86bf9b12-4239-4883-9bf6-4741521e8250.png)
+\
 #TODO \
 [1] add windows support \
 [2] make install script \
-\
