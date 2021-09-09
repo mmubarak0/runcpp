@@ -12,7 +12,7 @@ import platform
 pat = platform.system()
 noon = sys.argv
 if len(noon) == 1:
-    # TODO show file ended with .cpp 
+    # show file ended with .cpp 
     fileName = []
     for filename in os.listdir():
         if filename.endswith('.cpp'):
@@ -22,7 +22,7 @@ if len(noon) == 1:
         for i in range(len(fileName)):
             print(f"[{i+1}] "+fileName[i])
 
-        # TODO assosiate every program with number 
+        # assosiate every program with number 
 
 
         try:
@@ -47,14 +47,13 @@ if len(noon) == 1:
         progName = ""
         progname = ""
     # output
-    # print(f"progname = {progname}.py "+f"// progName = {progName}")
 else:
     progname = noon[1]
     progName = progname[:-4]
-# TODO run selected program 
+# run selected program 
 start = time.time()
 startTime = datetime.now()
-# //
+
 print("\n"*3)
 subprocess.run(["g++", "-o", progName, progname])
 try:
@@ -80,8 +79,5 @@ except Exception:
                 if j[:-4] == progName:
                     subprocess.run(["del", f"{progName}.exe"])
 print("\n"*3)
-# TODO enter the time takes the program to be compiled
-# print("////////////////------------------///////////")
+# enter the time takes the program to be compiled
 print(colored(('It took {0:0.1f} seconds'.format(time.time() - start)), "yellow"))
-# print("////////////////------------------///////////")
-# print("\t\t",datetime.now() - startTime)
