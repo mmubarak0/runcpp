@@ -9,14 +9,18 @@ a simple program to run cpp program for linux
 `python3 install.py`  
 <!-- [3] **copy** runcpp file were you put your code (you can copy runcpp file to **/bin** folder to be excutable from any where)\ -->
 3. then type runcpp as below   
+	![2021-07-25_17-11](https://user-images.githubusercontent.com/66879926/126904112-03a99ecf-9d94-4f0e-a4e8-634638cb443b.png)
+  
+	![2021-07-25_17-13](https://user-images.githubusercontent.com/66879926/126904507-86bf9b12-4239-4883-9bf6-4741521e8250.png)
 \
-![2021-07-25_17-11](https://user-images.githubusercontent.com/66879926/126904112-03a99ecf-9d94-4f0e-a4e8-634638cb443b.png)
+#Feautures  
+1.it can accept argumets names  
+2.clean things after it's done  
+3.faster working without need to worry about debugging  
+  
+  
 
-\
-\
-\
-![2021-07-25_17-13](https://user-images.githubusercontent.com/66879926/126904507-86bf9b12-4239-4883-9bf6-4741521e8250.png)
-\
 #TODO  
 1. add windows support  
-<!-- [2] make install script \ -->
+<!-- 2. make install script \ -->
+3. make a arugument to not clean stuff after compilation
